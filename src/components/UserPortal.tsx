@@ -24,7 +24,7 @@ interface RegistrationData {
   comment: string;
 }
 
-const COURSES = ["ADSE", "Artificial Intelligence(AI)", "Web Development", "Data Science", "Data Analytics", "Cyber Security", "UI/UX Design", "Digital Marketing", "Mobile App Development" ] as const;
+const COURSES = ["ADSE", "Artificial Intelligence(AI)", "Office Automation", "Web Development", "Data Science", "Data Analytics", "Cyber Security", "UI/UX Design", "Digital Marketing", "Mobile App Development" ] as const;
 
 export default function UserPortal() {
   const [formData, setFormData] = useState<RegistrationData>({
