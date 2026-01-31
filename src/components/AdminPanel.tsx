@@ -52,7 +52,7 @@ export default function AdminPanel() {
   const [search, setSearch] = useState('');
 
   const handleLogin = () => {
-    if (pass === 'admin2026') {
+    if (pass === 'admin2026@@##') {
       setIsAuth(true);
       localStorage.setItem('aptech_admin_auth', 'true');
       toast.success("Welcome back, Admin");
